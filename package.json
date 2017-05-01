@@ -1,0 +1,22 @@
+{
+  "name": "angular_ut",
+  "version": "1.0.0",
+  "description": "checking unit tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"implement tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergiusZurawski/AngularUT.git"
+  },
+  "author": "S.Z",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergiusZurawski/AngularUT/issues"
+  },
+  "homepage": "https://github.com/SergiusZurawski/AngularUT#readme",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
