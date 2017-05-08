@@ -4,7 +4,7 @@
   "description": "checking unit tests",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"implement tests\""
+    "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,13 @@
   },
   "homepage": "https://github.com/SergiusZurawski/AngularUT#readme",
   "devDependencies": {
-    "jasmine": "^2.6.0"
+    "jasmine": "^2.6.0",
+    "karma": "^1.6.0",
+    "karma-chrome-launcher": "^2.1.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "angular": "^1.6.4",
+    "angular-mocks":  "^1.6.4"
   }
 }
